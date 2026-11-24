@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#ffffff"/>
+  <g transform="translate(250 28)">
+    <ellipse cx="0" cy="430" rx="78" ry="8" fill="#eef2f6"/>
+    <path fill="#edd3a1" d="M-20 100C-20 124-64 140-64 176V404Q-64 448 0 448Q64 448 64 404V176C64 140 20 124 20 100Z"/>
+    <rect x="-11" y="24" width="22" height="58" fill="#edd3a1"/>
+    <rect x="-16" y="0" width="32" height="28" rx="3" fill="#6b3e16"/>
+    <path d="M-36 160C-30 240-30 340-34 420" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="7"/>
+    <rect x="-46" y="230" width="92" height="108" rx="4" fill="#fff8ee" stroke="#8a5a1a"/>
+    <text x="0" y="274" text-anchor="middle" font-family="Georgia, Times, serif" font-size="13" fill="#1a1a1a">Amarula</text>
+    <text x="0" y="296" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" fill="#8a5a1a">Cream</text>
+  </g>
+</svg>

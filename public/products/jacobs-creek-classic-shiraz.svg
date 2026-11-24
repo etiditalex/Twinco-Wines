@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#ffffff"/>
+  <g transform="translate(250 36)">
+    <ellipse cx="0" cy="430" rx="72" ry="8" fill="#eef2f6"/>
+    <path fill="#6d1c2b" d="M-10 70C-10 96-58 118-58 160V392Q-58 436 0 436Q58 436 58 392V160C58 118 10 96 10 70Z"/>
+    <rect x="-9" y="22" width="18" height="52" fill="#f4efe6"/>
+    <rect x="-13" y="0" width="26" height="24" rx="2" fill="#c6a15a"/>
+    
+    <path d="M-42 248H42V360Q42 392 0 392Q-42 392-42 360Z" fill="#8e2436"/>
+    <path d="M-48 150C-44 210-44 300-46 390" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="6"/>
+    <rect x="-38" y="210" width="76" height="92" fill="#fbf8f2" stroke="#eadfce"/>
+    <text x="0" y="250" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" fill="#1a1a1a" textLength="68" lengthAdjust="spacingAndGlyphs">Jacob's Creek</text>
+    <text x="0" y="272" text-anchor="middle" font-family="Georgia, Times, serif" font-size="11" fill="#7a1f2b">Shiraz</text>
+  </g>
+</svg>

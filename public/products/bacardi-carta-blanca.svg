@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#ffffff"/>
+  <g transform="translate(250 28)">
+    <ellipse cx="0" cy="430" rx="78" ry="8" fill="#eef2f6"/>
+    <path fill="#fffdf8" d="M-12 70C-12 96-46 112-46 148V412Q-46 448 0 448Q46 448 46 412V148C46 112 12 96 12 70Z"/><path fill="#f8f3ea" d="M-40 210C-38 250-38 340-40 412Q-40 440 0 440Q40 440 40 412C38 340 38 250 40 210Z"/>
+    <rect x="-11" y="24" width="22" height="58" fill="#fffdf8"/>
+    <rect x="-16" y="0" width="32" height="28" rx="3" fill="#8c1d2c"/>
+    <path d="M-36 160C-30 240-30 340-34 420" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="7"/>
+    <rect x="-46" y="230" width="92" height="108" rx="4" fill="#fffdf8" stroke="#8c1d2c"/>
+    <text x="0" y="274" text-anchor="middle" font-family="Georgia, Times, serif" font-size="13" fill="#1a1a1a">Bacardi</text>
+    <text x="0" y="296" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" fill="#8c1d2c">Carta Blanca</text>
+  </g>
+</svg>

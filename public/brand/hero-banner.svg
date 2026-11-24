@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="tan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7a04a"/>
+      <stop offset="1" stop-color="#b87422"/>
+    </linearGradient>
+    <linearGradient id="redglass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4a121c"/>
+      <stop offset="0.45" stop-color="#8d2434"/>
+      <stop offset="1" stop-color="#2c0c12"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e3d28"/>
+      <stop offset="0.5" stop-color="#1f7a48"/>
+      <stop offset="1" stop-color="#0c3322"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e7a4"/>
+      <stop offset="1" stop-color="#b8892e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="500" fill="url(#tan)"/>
+  <g transform="translate(210 30)">
+    <path fill="url(#redglass)" d="M70 118C70 150 10 176 10 230V520H190V230C190 176 130 150 130 118Z"/>
+    <rect x="86" y="18" width="28" height="104" fill="url(#gold)"/>
+    <rect x="78" y="8" width="44" height="18" rx="3" fill="#8d6a22"/>
+    <path d="M48 300H152V430H48Z" fill="#6e1a28" opacity="0.85"/>
+    <rect x="58" y="250" width="84" height="110" fill="#f8f1e4"/>
+    <text x="100" y="298" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1a1a1a">TwinCO</text>
+    <text x="100" y="322" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#8d2434">Red</text>
+    <path d="M28 200C34 280 32 400 30 500" fill="none" stroke="#fff" stroke-opacity="0.25" stroke-width="8"/>
+  </g>
+  <g transform="translate(430 8)">
+    <path fill="url(#green)" d="M62 130C62 156 8 180 8 226V540H156V226C156 180 102 156 102 130Z"/>
+    <rect x="74" y="28" width="16" height="108" fill="#f4efe4"/>
+    <path d="M70 18c6 8 8 14 6 20M82 14c6 10 6 16 4 22M94 18c5 8 6 14 4 20" fill="none" stroke="#c9a24a" stroke-width="2"/>
+    <rect x="66" y="6" width="32" height="16" rx="2" fill="#e6d7b0"/>
+    <rect x="46" y="250" width="72" height="100" fill="#f8f1e4"/>
+    <text x="82" y="294" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1a1a1a">TwinCO</text>
+    <text x="82" y="316" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1f7a48">Brut</text>
+    <path d="M22 210C26 300 24 420 22 520" fill="none" stroke="#fff" stroke-opacity="0.22" stroke-width="7"/>
+  </g>
+</svg>

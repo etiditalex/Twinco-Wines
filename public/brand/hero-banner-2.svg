@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="400" viewBox="0 0 1400 400">
+  <rect width="1400" height="400" fill="#8d3a3a"/>
+  <ellipse cx="300" cy="360" rx="240" ry="26" fill="#6e2c2c"/>
+  <g transform="translate(180,36)">
+    <rect x="88" y="0" width="28" height="22" rx="3" fill="#f0e2c4"/>
+    <rect x="96" y="22" width="12" height="48" fill="#f7efe0"/>
+    <path d="M48 78 h108 c10 0 20 12 20 26 v160 c0 18-16 32-36 32 H64 c-20 0-36-14-36-32 V104 c0-14 8-26 20-26z" fill="#4a1020"/>
+    <rect x="70" y="130" width="64" height="72" fill="#f8f4ea"/>
+    <text x="102" y="172" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#4a1020">Rosé</text>
+  </g>
+  <g transform="translate(390,70)">
+    <rect x="40" y="0" width="22" height="16" fill="#efe4cc"/>
+    <rect x="46" y="16" width="10" height="36" fill="#f7f1e6"/>
+    <path d="M10 58 h80 c8 0 14 8 14 18 v120 c0 12-10 22-22 22 H18 c-12 0-22-10-22-22 V76 c0-10 6-18 14-18z" fill="#f2d7c9"/>
+  </g>
+</svg>

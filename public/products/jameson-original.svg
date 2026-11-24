@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#ffffff"/>
+  <g transform="translate(250 28)">
+    <ellipse cx="0" cy="430" rx="78" ry="8" fill="#eef2f6"/>
+    <path fill="#b8860b" d="M-16 78C-16 108-70 128-70 176V400Q-70 448 0 448Q70 448 70 400V176C70 128 16 108 16 78Z"/>
+    <rect x="-11" y="24" width="22" height="58" fill="#b8860b"/>
+    <rect x="-16" y="0" width="32" height="28" rx="3" fill="#1f3d2b"/>
+    <path d="M-36 160C-30 240-30 340-34 420" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="7"/>
+    <rect x="-46" y="230" width="92" height="108" rx="4" fill="#f7f3ea" stroke="#1f3d2b"/>
+    <text x="0" y="274" text-anchor="middle" font-family="Georgia, Times, serif" font-size="13" fill="#1a1a1a">Jameson</text>
+    <text x="0" y="296" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" fill="#1f3d2b">Irish Whiskey</text>
+  </g>
+</svg>

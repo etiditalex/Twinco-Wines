@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#ffffff"/>
+  <g transform="translate(250 28)">
+    <ellipse cx="0" cy="430" rx="78" ry="8" fill="#eef2f6"/>
+    <path fill="#f0c14a" d="M-18 92C-18 112-52 124-52 150V408Q-52 448 0 448Q52 448 52 408V150C52 124 18 112 18 92Z"/>
+    <rect x="-16" y="28" width="32" height="68" rx="4" fill="#e6d7a2"/>
+    <rect x="-16" y="0" width="32" height="28" rx="3" fill="#f4f7fb"/>
+    <path d="M-36 160C-30 240-30 340-34 420" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="7"/>
+    <rect x="-46" y="230" width="92" height="108" rx="4" fill="#ffffff" stroke="#1d4e89"/>
+    <text x="0" y="274" text-anchor="middle" font-family="Georgia, Times, serif" font-size="13" fill="#1a1a1a">White Cap</text>
+    <text x="0" y="296" text-anchor="middle" font-family="Georgia, Times, serif" font-size="12" fill="#1d4e89">Lager</text>
+  </g>
+</svg>

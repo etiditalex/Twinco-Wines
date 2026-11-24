@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+}
+
+@theme inline {
+  --color-background: #f1f5f9;
+  --color-foreground: #020817;
+  --color-navy: #111827;
+  --color-ink: #020817;
+  --color-logo: #ea2027;
+  --color-logo-deep: #c4161c;
+  --color-mist: #f1f5f9;
+  --color-foam: #ffffff;
+  --color-line: #e2e8f0;
+  --color-muted: #64748b;
+  --color-page: #f1f5f9;
+  --font-sans: ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --font-display: ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f1f5f9;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    color: var(--color-ink);
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-logo);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 80;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--color-navy);
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+dialog.sheet {
+  width: min(32rem, calc(100% - 2rem));
+  border: 0;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  color: var(--color-ink);
+  background: #ffffff;
+}
+
+dialog.sheet::backdrop {
+  background: rgb(12 35 64 / 45%);
+}
+
+dialog.age-gate {
+  width: min(36rem, calc(100% - 2rem));
+  border: 0;
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  color: var(--color-ink);
+  background: #ffffff;
+}
+
+dialog.age-gate::backdrop {
+  background: rgb(12 35 64 / 72%);
+}
