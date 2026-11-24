@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to content
         </a>
         <CartProvider>
-          <Suspense fallback={<main id="main" className="flex-1">{children}</main>}>
+          <Suspense fallback={<main id="main" className="flex-1" />}>
             <SiteChrome>{children}</SiteChrome>
           </Suspense>
         </CartProvider>

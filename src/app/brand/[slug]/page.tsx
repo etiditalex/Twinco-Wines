@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { ProductCard } from "@/components/product-card";
 import { drinkAisles } from "@/content/aisles";
 import { getProduct } from "@/content/catalog";
@@ -22,7 +23,15 @@ export async function generateMetadata({
   return { title: page.title, description: page.title };
 }
 
-export default async function BrandPage({ params }: { params: Promise<{ slug: string }> }) {
+export default function BrandPage({ params }: { params: Promise<{ slug: string }> }) {
+  return (
+    <Suspense fallback={<p className="mx-auto max-w-6xl px-4 py-16 text-muted">Loading this brand…</p>}>
+      <BrandShelf params={params} />
+    </Suspense>
+  );
+}
+
+async function BrandShelf({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const page = brandShelf(slug);
   if (!page) notFound();
